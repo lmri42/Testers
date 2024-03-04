@@ -6,7 +6,7 @@
 /*   By: luribero <luribero@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/24 11:45:58 by luribero          #+#    #+#             */
-/*   Updated: 2024/02/25 13:18:44 by luribero         ###   ########.fr       */
+/*   Updated: 2024/03/04 22:17:38 by luribero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -232,7 +232,8 @@ int main() {
 
 // Testing with problematic numbers
     printf("Test %d: Testing with problematic numberss \n", test_number++);
-    printf("Standard printf:\t%ld %ld %ld %ld\n", 9176321320103036665, -3817478719532721019, -793297641930942327, -14523);
+    std += printf("Standard printf:\t%ld %ld %ld %ld\n", 9176321320103036665, -3817478719532721019, -793297641930942327, -14523);
+	mine += ft_printf("Standard printf:\t%ld %ld %ld %ld\n", 9176321320103036665, -3817478719532721019, -793297641930942327, -14523);
 
     printf("Standard function printed a total of: %d characters!\n", std);
     printf("Your function printed a total of: %d characters!\n", mine);
